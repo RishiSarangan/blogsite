@@ -1,0 +1,268 @@
+html{
+    font-family: "Poppins";
+    position:relative; 
+    background-color: #3E065F;
+    min-height: 100%;
+}
+body { 
+    margin: 5%;
+    background-color: #3E065F; 
+}
+
+h1{
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.box0{
+    background-color: #ffffff;
+    max-width: 90%;
+    position: relative;
+    margin-top: 10%;
+    font-family: "Poppins";
+}
+
+.basicbox{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 4%;
+    font-family: "Poppins";
+    padding-bottom: 5%;
+    text-align: center;
+    width: 90%;
+    background-color: #6f0b97;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.6);
+}
+
+/* cards stuff */
+
+
+.col-sm-4{
+    margin-top: 5%;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+
+#cardtitle{
+    font-weight: 600;
+}
+
+.cards{
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.6);
+}
+
+.row{
+    margin-left: 5%;
+}
+
+
+.content{
+    max-width: 80%;
+    margin: auto;
+}
+/* NAVBAR STUFF STARTS */
+
+.navbar {
+    position: fixed;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 90%;
+    font-family: "Poppins";
+    background-color: #6f0b97;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+    margin-right: 50px;
+}
+
+
+.linkitems{
+    margin-left: 50%;
+}
+
+#nav-button{
+    margin-right: 6%;
+    background-color: #ffffff;
+    color: #6f0b97;
+}
+
+.navbar-brand{
+    margin-left: 6%;
+    color: #ffffff;
+}
+.navbar-header a:hover {
+    color: #000000 !important;
+} 
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+    margin-left: 6%;
+}
+
+.navbar-nav  li a:hover {
+    background-color: #6f0b97;
+    color: #000000 !important;
+} 
+
+/* NAVBAR STUFF ENDS */
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+    border-radius: 25px;
+    margin-bottom: 2%;
+    bottom: 0;
+    width: 90%;
+	position: absolute;
+	text-align: center;
+    height: 60px;
+    background-color: #700B97;
+    font-family: "Poppins";
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.6);
+}
+
+.footer p {
+    font-weight: 600;
+    margin-top: 20px;
+	font-size: 15px;
+    color: #fff;
+}
+
+/* sign in page */
+
+.box0.box1{
+    background-color: #700B97;
+    max-width: 70%;
+    border-radius: 25px;
+    margin-left: 14%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.6);
+}
+
+.registerform{
+    padding-top: 5%;;
+    padding-bottom: 5%;
+    margin: auto;
+    width: 50%;
+    color: #ffffff;
+}
+
+.registerform input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #8E05C2;
+    color: #ffffff;
+  }
+
+  .registerform input[type="title"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #8E05C2;
+    color: #ffffff;
+  }
+  
+  .registerform input[type="password"] {
+    margin-bottom: 10%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #3E065F;
+    color: #ffffff;
+  }
+
+  .registerform textarea[type="post"] {
+    margin-bottom: 10%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #3E065F;
+    color: #ffffff;
+  }
+
+  .registerform h1{
+    text-align: center;
+  }
+
+#deletebtn{
+    margin-left: 9%;
+}
+  /* .registerform button[type="submit"] {
+    margin-bottom: 10%;
+  } */
+
+/* main content stuff */
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+    .box0{
+        position: relative;
+        margin-top: 25%;
+        width: 70%;
+        margin-left: 14%;
+        font-family: "Poppins";
+    }
+
+    .basicbox{
+        padding-bottom: 5%;
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    .box0.box1{
+        margin-top: 40%;
+        background-color: #700B97;
+    }
+
+    .row{
+        margin-left: 5%;
+    }
+    
+    .registerform{
+        padding-top: 5%;;
+        padding-bottom: 5%;
+        width: 70%;
+    }
+
+    .navbar {
+        position: fixed;
+        margin-left: 4%;
+        margin-top: 4%;
+        width: 90%;
+        font-family: "Poppins";
+        background-color: #6f0b97;
+        border-radius: 25px;
+        font-weight: 600;
+    }
+
+    .registerform h1{
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .linkitems{
+        margin-left: 0%;
+    }
+
+    .cardsbox{
+        margin-top: 5%;
+        margin-left: 15%;
+        font-family: "Poppins";
+        color: #ffffff;
+    }
+    
+}
+
